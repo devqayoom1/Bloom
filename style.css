@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #071526;
+  color: #ffffff;
+}
+.container {
+
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 20px;
+  
+  
+}
+.containers{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+  
+}
+.containar{
+      max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+  
+}
+.navbar {
+  background: #0b1c30;
+  position: sticky;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 14px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  color: white;
+}
+
+ .primary {
+  background: #6d28d9;
+  border: none;
+} 
+
+
+.hero {
+ background-image: url(footer.webp); 
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.cards {
+  background: #0b1c30;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #0f2a44;
+  height: 280px;
+  padding: 35px 25px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+.about {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about-box {
+  background: #0b1c30;
+  border-radius: 20px;
+  padding: 60px 40px;
+}
+
+
+.footer {
+  background: #020617;
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+
+.copy {
+  text-align: center;
+  padding: 25px;
+  font-size: 15px;
+  background: #020617;
+  opacity: 0.7;
+}
+
+
